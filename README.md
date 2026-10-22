@@ -25,7 +25,9 @@ Para jogos, selecione a janela do jogo e o perfil **Jogos — até 1440p, 60 fps
 
 ## Diagnósticos técnicos
 
-Falhas ao listar fontes, iniciar/parar e uso da captura alternativa enviam automaticamente um relatório técnico à equipe, usando a sessão da conta. O relatório contém build, plataforma, tipo de fonte, perfil e códigos técnicos; não envia imagens, títulos de janelas, mensagens, caminhos ou tokens. Quando o envio de uma falha é confirmado, o app mostra um identificador. Sem conexão, o app informa que o diagnóstico não foi enviado. Esses relatórios não cobrem todos os erros do aplicativo.
+O app envia automaticamente dados técnicos de funcionamento: falhas por etapa, FPS de captura/encode/recepção/exibição e métricas de conexão disponíveis. Uma fila limitada tenta reenviar quando a conexão volta. Não coleta imagens, áudio, mensagens, títulos de janelas, caminhos, IP/SDP ou credenciais.
+
+Em **Configurações da conta → Diagnósticos do aplicativo**, você pode consultar suas sessões, marcar uma travada, ativar detalhes por 10 minutos ou desativar a coleta. Acesso a outras contas é restrito à operação autorizada. As métricas de CPU/memória desta versão cobrem somente o processo nativo principal; GPU e processos auxiliares não são medidos.
 
 ## FFmpeg e licenças
 
