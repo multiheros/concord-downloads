@@ -4,17 +4,23 @@ Downloads oficiais para Windows. Este repositório distribui instaladores; o có
 
 ## Baixar
 
-**[Baixar Concord v0.1.6 para Windows (64 bits)](https://github.com/multiheros/concord-downloads/releases/download/v0.1.6/Concord-0.1.6-Setup.exe)**
+**[Baixar Concord v0.1.7 para Windows (64 bits)](https://github.com/multiheros/concord-downloads/releases/download/v0.1.7/Concord-0.1.7-Setup.exe)**
 
 [Versões e novidades](https://github.com/multiheros/concord-downloads/releases/latest) · [SHA-256](https://github.com/multiheros/concord-downloads/releases/latest/download/SHA256SUMS.txt)
 
 ## Instalar e usar
 
 1. Feche o Concord caso esteja aberto.
-2. Execute **Concord-0.1.6-Setup.exe** e abra o app. Confira **Concord v0.1.6** na barra do aplicativo ou no menu da conta.
+2. Execute **Concord-0.1.7-Setup.exe** e abra o app. Confira **Concord v0.1.7** na barra do aplicativo ou no menu da conta.
 3. Entre em um canal de voz e escolha explicitamente a janela ou monitor que deseja compartilhar.
 
 O pacote inclui **FFmpeg e instalador offline do WebView2**, comprimidos em um único instalador de aproximadamente 220 MiB. O WebView2 é instalado silenciosamente quando necessário. Não é preciso instalar pacote de codecs, Visual C++ Redistributable, Windows SDK ou CUDA toolkit separadamente. O uso do Concord continua exigindo conexão com o servidor.
+
+## Atualizações pelo app
+
+A partir da **v0.1.7**, o Concord consulta atualizações ao abrir e oferece download com progresso e o botão **Reiniciar e atualizar**. A instalação é bloqueada durante chamadas e transmissões. Pacotes e versões são verificados por assinatura digital antes de instalar.
+
+Instale esta versão manualmente uma vez para ativar o recurso. As próximas atualizações chegam pelo próprio app, com pacote de aproximadamente **12 MiB**, sem baixar novamente o instalador offline do WebView2. O instalador completo de cerca de 220 MiB continua disponível para primeira instalação e recuperação. Os arquivos vêm deste GitHub; a VPS não hospeda os instaladores.
 
 ## Compartilhamento
 
